@@ -12,6 +12,10 @@ end
 
 def assign_rooms(people)
   people.map.with_index(1) do |peron, index|
+    #binding.pry
     "Hello, #{person}! You'll be assigned to room #{index}!"
   end
 end
+
+def printer(people)
+  #
